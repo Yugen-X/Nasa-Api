@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap');
+
+body {
+    background-image: url(./nebula.jpg);
+}
+
+h1,
+div,
+button {
+    font-family: "space mono", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 3% 0 5% 0;
+}
+
+#img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+#content {
+    color: white;
+    line-height: 300%;
+    margin-top: 4%;
+}
+
+.center {
+    text-align: center;
+}
+
+button{
+    background-color: #737373aa;
+    height: 30px;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+button:hover {
+    height: 60px;
+    color: white;
+}
